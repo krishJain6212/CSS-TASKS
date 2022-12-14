@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css task</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.main{
+			height: 820px;
+			background: rgb(239, 240, 244);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.card{
+			height: 600px;
+			width: 450px;
+			background: rgb(239, 240, 244);
+			box-shadow: 5px 5px 20px grey;
+			border: 4px solid #fff;
+			border-radius: 25px ;
+			position: relative;
+
+		}
+		.card .back{
+               position: absolute;
+               top: 25px;
+               left: 25px;
+               font-size: 24px;
+		}
+		.card .options{
+			position: absolute;
+			top: 25px;
+			right: 25px;
+			font-size: 24px;
+
+		}
+		.image{
+
+			display: flex;
+			justify-content: center;
+			margin-top: 50px;
+
+		}
+		.image img{
+			height: 180px;
+			width: 180px;
+			border: 20px solid rgb(239, 240, 244);
+			border-radius: 50%;
+			box-shadow: 10px 10px 50px black;
+		}
+		.card .name{
+			display: flex;
+			justify-content: center;
+			margin-top: 25px;
+			font-size: 24px;
+			font-weight: bolder;
+			letter-spacing: 1px;
+		}
+		.card .prof{
+			display: flex;
+			justify-content: center;
+			font-size: 22px;
+			margin-top: 10px;
+			color: gray;
+		}
+		.social-links{
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+
+		}
+		.social-links .facebook,.twitter,.instagram,.youtube{
+			height: 50px;
+			width: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			background: rgb(239, 240, 244);
+			font-size: 24px;
+			margin-right: 20px;
+			box-shadow: 5px 5px 20px gray;
+		}
+		
+		}
+		.facebook i{
+			color: #3b5998;
+		}
+		.twitter i{
+			color: #00AAEE;
+		}
+		.instagram i{
+			background:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+			color: #fff;
+			border-radius: 5px;
+		}
+		.youtube i{
+			color: #ff0000;
+		}
+		.buttons{
+			display: flex;
+			justify-content: center;
+			margin-top: 40px;
+		}
+		.buttons button{
+			width: 150px;
+			font-size: 24px;
+			padding: 10px;
+			background: rgb(239, 240, 244);
+			box-shadow: 2px 2px 20px gray;
+		}
+		.resp{
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+		}
+		.resp .like,.comment,.share{
+			width: 110px;
+			font-size: 24px;
+			padding: 10px;
+			border: none;
+			background: rgb(239, 240, 244);
+		}
+		.resp .like,.comment{
+			border-right: 2px solid gray;
+
+		}
+	</style>
+</head>
+<body>
+       <div class="main">
+       	<div class="card">
+       		<div class="back"><i class="fa-solid fa-arrow-left"></i></div>
+       		<div class="options"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+       		<div class="image"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0rfm7ulLh-hULWlR8NBtrIwRCCWql8VQ9zw&usqp=CAU"> </div>
+       		<div class="name">CodingNepal</div>
+       		<div class="prof">Designer & Developer</div>
+       		<div class="social-links">
+
+       			<div class="facebook"> <a href=""><i class="fa-brands fa-facebook-f"></i></a> </div>
+
+
+       			<div class="twitter"> <a href=""><i class="fa-brands fa-twitter"></i></a> </div>
+
+
+       			<div class="instagram"> <a href=""><i class="fa-brands fa-instagram"></i></a> </div>
+
+
+       			<div class="youtube"> <a href=""><i class="fa-brands fa-youtube"></i></a> </div>
+
+       		</div>
+       		<div class="buttons">
+       			<button>Message</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       			<button>Subscribe</button>
+       		</div>
+       		<div class="resp">
+       			<button class="like"><i class="fa-regular fa-heart"></i>20.4k</button>
+       			
+       			<button class="comment"><i class="fa-regular fa-comment"></i>14.3k</button>
+       			
+       			<button class="share"><i class="fa-regular fa-share"></i>12.8k</button>
+       		</div>
+       	</div>
+       </div>
+</body>
+</html>
