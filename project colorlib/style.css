@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.slider{
+	height: 820px;
+	background: url('/Users/krishjain/Desktop/CSS-TASKS/project colorlib/images/slider-1.jpg');
+    background-size: content;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+.slider .menu{
+	display: flex;
+
+	justify-content: center;
+	
+
+}
+.slider .menu .icons{
+         text-align: left;
+         width: 33.33%;
+         height: 50px;
+         padding-left: 30px;
+         padding-top: 40px;
+         word-spacing: 20px;
+
+}
+.slider .menu .logo{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 30px;
+	width: 33.33%;
+}
+.slider .menu .logo span{
+	border: 2px solid #fff;
+	padding: 10px;
+}
+.slider .menu .bars{
+	width: 33.33%;
+	padding-right: 30px;
+	text-align: right;
+	padding-top: 40px;
+}
+.slider .info{
+	margin-top: 80px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider .info p{
+	width: 70%;
+	font-size: 48px;
+}
+.menu-items{
+	padding: 100px 0;
+
+}
+.menu-items .items{
+	display: flex;
+    margin: auto;
+	flex-wrap: wrap;
+	width: 80%;
+}
+.menu-items .items .item{
+	height: 350px;
+	width: 25%;
+	text-align: center;
+}
+.menu-items .items .item img{
+	background: lightsalmon;
+	padding: 25px;
+	border: 1px solid black;
+	border-radius: 50%;
+	margin-bottom: 40px;
+}
+.menu-items .items .item .p1{
+	font-size: 24px;
+	font-weight: 0.5;
+	margin-bottom: 30px;
+	color: black;
+}
+.menu-items .items .item p{
+	font-size: 18px;
+	line-height: 25px;
+	color: gray;
+}
+.specialties {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.specialties .heading{
+	width: 48%;
+	text-align: center;
+	margin-top: 100px;
+}
+.specialties .heading .p1{
+	font-size: 34px;
+	font-weight: 0.6;
+	margin-bottom: 30px;
+}
+.specialties .heading .p2{
+	font-size: 20px;
+	color: gray;
+}

@@ -1,0 +1,37 @@
+@media(max-width:574px){
+ .sub-header{display: none;}
+ .main .nav .logo{left: 10px; font-size: 22px}
+ .main .nav .nav-info{display: none;}
+ .bars{display: block;}
+ .main .main-info{width: 400px; left: 100px}
+ .main .previous{font-size: 22px}
+ .main .forward{font-size: 22px; left: 532px}
+ .rqst{height: auto; display: block;  text-align: center; padding: 30px}
+ .rqst .left{text-align: center; padding-left: 0px;}
+ .rqst .right{margin-left: 0px; text-align: center; margin-top: 40px}
+ .services .cards{width: 90%} 
+ .services .cards .card{ display: block; width: 100%; margin-bottom: 25px }
+ .solutions{display: block; }
+ .solutions .left{width: 100%;}
+ .solutions .left .text{ margin: auto; margin-top: 40px; padding-top: 40px }
+ .solutions .right{width: 100%; }
+ .solutions .right .up{display: block;  }
+ .solutions .right .up .card{ width:70%; margin-left:40px; margin-bottom:40px }
+ .solutions .right .down{display: block;  }
+ .solutions .right .down .card{ width:70%; margin-left:40px; margin-bottom:40px }
+ .more-info .container{margin-left: 10px; margin-right: 10px}
+ .more-info .container .more-info-content{display: block;}
+ .more-info .container .more-info-content .left-img{width: 100%}
+ .more-info .container .more-info-content .right-info{padding: 40px; width: 80%}
+ .testimonials .container .cards .card1{width: 100%}
+ .testimonials .container .cards .card2{display: none}
+ .callback-form .container .form .contact{display: block;}
+ .callback-form .container .form .contact .labels{width: 100%}
+ .callback-form .container .form .contact .labels input{width: 80%}
+ .callback-form .container .form .contact .textarea .form-control{width: 80%; margin-left: 0px}
+ .callback-form .container .form .contact .btn .border-button{margin: auto}
+ .footer-container{margin: auto; padding-left: 0px; padding-right: 30px}
+ .footer-container .footer-content{display: block;}
+ .footer-container .footer-content .content{width: 100%; padding-bottom: 40px; margin-bottom: 40px; 
+border-bottom: 1px solid gray; }
+ .sub-footer .content{margin: auto;}
